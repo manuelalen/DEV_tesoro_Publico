@@ -38,4 +38,4 @@ jobs:
     - name: Saludo
       run: echo "Hello ${{ inputs.name }}"
     - name: Entorno
-      run: id;mkdir -p /home/tesoro; cd /home/tesoro; echo "Desarrollo a ${{ inputs.entorno }} realizado correctamente por ${{ inputs.name }} el `date +'%d/%m/%Y %H:%M:%S'`" >> execution_log.log; cat execution_log.log
+      run: echo "Desarrollo a ${{ inputs.entorno }} realizado correctamente por ${{ inputs.name }} el `date +'%d/%m/%Y %H:%M:%S'`" >> execution_log.log; cat execution_log.log
