@@ -19,3 +19,6 @@ Se presupone un contexto en el que este Estado tendría soberanía monetaria ple
 
 ## POC: Prueba de Concepto
 
+A continuación un vídeo con la prueba de concepto realizada que ejemplifica la creación de dinero en un Estado con soberanía monetaria.
+
+[![Ver vídeo](https://i.ytimg.com/vi/VxsSSD-Q1Vo/hqdefault.jpg)](https://www.youtube.com/watch?v=VxsSSD-Q1Vo)
