@@ -1,0 +1,145 @@
+/* Estilo vanguardista */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #2f3640;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #00c2ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0062;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #2f3640;
+  font-size: 1.2em;
+}
+
+.form-label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.form-submit {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #2980b9;
+}
+
+.form-error {
+  color: #ff0000;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .form-input {
+    font-size: 1em;
+  }
+
+  .form-label {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+
+  .button,
+  .form-submit {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+}
+
+.btn-vanguardista {
+  background-color: #00c2ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-vanguardista:hover {
+  background-color: #ff0062;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
