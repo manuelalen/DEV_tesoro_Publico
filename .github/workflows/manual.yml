@@ -17,11 +17,18 @@ on:
         required: true
         # The data type of the input
         type: string
+        
+      entorno:
+        description: '¿A qué entorno vas a aplicar realizar el desarrollo?'
+        default: 'prod'
+        required: true
+        type: string
+        
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  Saluditos:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -31,4 +38,4 @@ jobs:
     - name: Saludo
       run: echo "Hello ${{ inputs.name }}"
     - name: Entorno
-      run: id
+      run: mkdir -p /home/tesoro; cd /home/tesoro; echo "Desarrollo a ${{ inputs.entorno }} realizado correctamente por ${{ inputs.name }} el `date +'%d/%m/%Y %H:%M:%S'`" >> execution_log.log; cat execution_log.log
