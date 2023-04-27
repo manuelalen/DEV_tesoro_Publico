@@ -3,7 +3,7 @@ import os
 import json
 
 # Credenciales de GitHub
-ACCESS_TOKEN = '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'
+ACCESS_TOKEN = 'github_pat_'
 REPO_NAME = 'manuelalen.github.io/data'
 
 # Crea una instancia de GitHub y obtiene el repositorio
